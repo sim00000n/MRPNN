@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\CODE\MRPNN-main\core\omp.cpp">
+      <Filter>Core Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CODE\MRPNN-main\mrpnn_input_data_wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\CODE\MRPNN-main\core\GUI.hpp">
+      <Filter>Core Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CODE\MRPNN-main\core\camera.hpp">
+      <Filter>Core Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CODE\MRPNN-main\core\hdr_loader.h">
+      <Filter>Core Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CODE\MRPNN-main\core\omp.hpp">
+      <Filter>Core Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CODE\MRPNN-main\core\platform.h">
+      <Filter>Core Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CODE\MRPNN-main\core\sample_method.hpp">
+      <Filter>Core Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CODE\MRPNN-main\core\volume.hpp">
+      <Filter>Core Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\core\camera.cu">
+      <Filter>Core Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\core\radiancePredict.cu">
+      <Filter>Core Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\core\renderResources.cu">
+      <Filter>Core Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\core\vector.cu">
+      <Filter>Core Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\core\volume.cu">
+      <Filter>Core Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\mrpnn_input_data_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CODE\MRPNN-main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\CODE\MRPNN-main\core\ACES.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+    <None Include="C:\CODE\MRPNN-main\core\NNWeight.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+    <None Include="C:\CODE\MRPNN-main\core\NNWeight_RPNN.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+    <None Include="C:\CODE\MRPNN-main\core\radiancePredict.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+    <None Include="C:\CODE\MRPNN-main\core\render.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+    <None Include="C:\CODE\MRPNN-main\core\renderResources.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+    <None Include="C:\CODE\MRPNN-main\core\tensor.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+    <None Include="C:\CODE\MRPNN-main\core\vector.cuh">
+      <Filter>Core Include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core Include">
+      <UniqueIdentifier>{8B018702-34F2-3453-9C81-1E76D398A111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Source">
+      <UniqueIdentifier>{80F51F35-93F6-34B2-A142-FCA63BCD9AD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C6ED0FCF-9F37-31A5-9E24-1AEFF643129D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
