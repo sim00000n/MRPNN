@@ -1,0 +1,13 @@
+.venv_312/
+.venv_cp312/
+.idea/
+old_pt/
+ground_truth - 6 test/
+full_c0_gt/
+dev_gt/
+debug_img/
+debug_img_ref/
+debug_img_test/
+debug_img_test_ref/
+for_debug/
+ground_truth_raw/
