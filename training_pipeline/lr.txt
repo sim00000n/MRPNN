@@ -1,0 +1,13 @@
+warmup 1000
+
+charbonnier 1.0
+l1 0.0
+l2 0.0
+grad 0.0
+lpips 0.0
+ms_ssim 0.0
+
+ultra_hot_nowd 3e-5
+hot_nowd 3e-5
+core_wd 3e-5
+refiner_wd 3e-5
